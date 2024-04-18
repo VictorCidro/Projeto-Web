@@ -16,21 +16,22 @@
     <div class="boxGeral">
         <div class="boxLogin">
             <img src="/images/logo.png" alt="Logo EduConnect">
-            <h1>Login</h1>
-            <p>Se não tiver uma conta registrada<br>Você pode <a class="mudardepag" href="cadastro.html">Registrar aqui!</a></p>
-            
+            <h1>Cadastrar</h1>
+            <p>Já tem uma conta? <a class="mudardepag" href="login.html">Faça login aqui!</a></p>
             
             <form>
-                <label class="" for="email">E-mail:</label><br>
-                <input placeholder="Digite seu E-mail" class="campo" type="email" id="Email" name="Email" required><br><br>
-                <label class="" for="pwd">Senha:</label><br>
+                <label for="email">E-mail:</label><br>
+                <input placeholder="Digite seu E-mail" class="campo" type="email" id="Email" name="Email" required><br>
+                <label for="nome">Nome:</label><br>
+                <input placeholder="Digite seu nome" class="campo" type="text" id="nome" name="nome" required><br>
+                <label for="cpf">CPF:</label><br>
+                <input placeholder="Digite seu CPF" class="campo" type="number" id="cpf" name="cpf" required><br>
+                <label for="tel">Telefone:</label><br>
+                <input placeholder="Digite seu telefone" class="campo" type="tel" id="tel" name="tel" required><br>
+                <label for="pwd">Senha:</label><br> 
                 <input placeholder="Digite sua senha" class="campo" type="password" id="pwd" name="pwd" required><br>
-                <label>
-                    <input type="checkbox" name="minhaCheckbox">
-                    lembrar-me
-                </label>
+            
                 <input class="button" type="submit" value="Enviar">
-                
             </form>
         </div>
         <div class="boxImagem">
