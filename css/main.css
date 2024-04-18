@@ -5,8 +5,8 @@
 }
 
 .boxImagem {
-  width: 40rem;
-  height: 40rem;
+  
+  padding: 8rem;
   background: rgba(0,7,65,1);
   position: relative;
   border-radius: 15px;
