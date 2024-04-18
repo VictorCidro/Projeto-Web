@@ -2,88 +2,51 @@
 <html lang="pt-br">
 
 <head>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Site</title>
-    <style>
-        /* Estilos para o menu */
-        ul {
-            list-style: none;
-            background-color: rgb(80, 80, 80);
-            padding: 0;
-            margin: 0;
-        }
 
-        li {
-            display: inline-block;
-            margin-right: 20px;
-        }
-
-        a {
-            text-decoration: none;
-            color: #fff;
-        }
-
-        header {
-            background-color: rgb(200, 200, 200);
-            width: 100%;
-            height: 50px;
-            display: flex;
-            background-color: #EAF3EC;
-
-            position: sticky;
-            top: 0;
-        }
-
-        nav {
-            background-color: rgb(80, 80, 80);
-            width: 100%;
-            height: 50px;
-            display: flex;
-
-            position: sticky;
-            top: 0;
-        }
-
-        section div {
-            width: 80%;
-            height: 60px;
-            background-color: #3b3b3b;
-            margin: 20px auto;
-            border-radius: 15px;
-        }
-        body {
-            background-color: #EAF3EC;
-        }
-        
-    </style>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Aprender</a></li>
-                <li><a href="#">Praticar</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
+    <header class="menu-principal">
+        <main>
+            <div class="header-1">
+                <div class="logo">
+                    <img src="img/Logo.png" />
+                    <p class="logo-nome">EduConnect</p>
+
+                </div>
+                <div class="menu-navegacao">
+                    <ul>
+                        <li><a href=""><img src="img/home icone.png">Home</a></li>
+                        <li><a href=""><img src="img/foguete incone.png">Aprender</a></li>
+                        <li><a href=""><img src="img/peso icone.png">Praticar</a></li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
     </header>
+    <div class="box-geral">
+        <div class="box-texto">
+            <div class="Texto-Principal">
+                O conhecimento é a chave que abre todas as portas do universo da possibilidade
+            </div>
+            <div class="Texto-secundario">
+                Explore nossos cursos online, aulas ao vivo e recursos educacionais. Impulsione seu aprendizado com<br>
+                nossa comunidade engajada e certificações reconhecidas pelo mercado. Junte-se a nós para começar
+                <br>sua jornada de aprendizado hoje mesmo!
+            </div>
+            
+        </div>
 
-    <!-- Menu -->
+        <div class="box-imagem">
+            <img src="img/Cerebro.png">
+        </div>
+    </div>
 
-
-    <!-- Conteúdo da página -->
-    <main>
-        <h1>O conhecimento é a chave que abre todas as portas do universo da possibilidade</h1>
-        <p>Explore nossos cursos online, aulas ao vivo e recursos educacionais. Impulsione seu aprendizado com nossa
-            comunidade engajada e certificações reconhecidas pelo mercado. Junte-se a nós para começar sua jornada de
-            aprendizado hoje mesmo!</p>
-        <button>Saiba mais</button>
-        <button>Contate-nos</button>
-    </main>
-    
 </body>
 
 </html>
