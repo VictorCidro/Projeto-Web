@@ -1,11 +1,15 @@
 .boxLogin {
   align-items: center;
-  margin-left: 10rem;
+  margin-left: 8rem;
   font-family: "Poppins", sans-serif;
+  /*background: orange;
+  padding: 8rerm;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;*/
 }
 
 .boxImagem {
-  
   padding: 8rem;
   background: rgba(0,7,65,1);
   position: relative;
@@ -47,4 +51,8 @@
 
 .mudardepag {
   color: #FBBC05;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: bold;
+  text-decoration: none;
 }
