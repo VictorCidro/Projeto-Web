@@ -13,4 +13,4 @@ Nossa solução consiste no desenvolvimento de uma plataforma educativa online a
 Desenvolvido pelos alunos:
 
 * [Henrique Galiano de Moraes](https://github.com/Rikz1n) - RA: 2418266
-* [Victor Montelares Cidro](https://github.com/linkParaPerfil) - RA: 
+* [Victor Montelares Cidro](https://github.com/VictorCidro) - RA: 2418398
